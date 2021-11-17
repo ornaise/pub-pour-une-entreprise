@@ -1,0 +1,126 @@
+@font-face {
+  font-family:league spartan;
+  src: url(LeagueSpartan-Bold.otf);
+}
+header {
+  display: grid;
+  color: white;
+  grid-row: 1/7;
+  grid-column: 1/3;
+  font-size: 100px;
+  
+}
+ 
+
+img{
+  grid-row: 1;
+  grid-column: 1/3;
+  max-height: 100vh;
+  width: 100%;
+  object-fit: cover;
+}
+.calque{
+  grid-row: 1;
+  grid-column: 1;
+  display: grid;
+  font-size: 3vw;
+  line-height:0.75;
+  
+}
+.calque p{
+   font-size: 13px;
+   /* writing-mode: sideways-lr;
+   text-orientation: mixed; */
+   grid-column: 1;
+   width: 19%;
+   grid-row: 7;
+   font-weight: normal;
+   letter-spacing: 2px;
+   /* text-align: center; */
+   color: black;
+   line-height: 25px;
+   
+   font-family: 'Libre Baskerville', serif;
+  /* transform: translate(5%,5%); */
+}
+h1{
+ /* text-transform: capitalize;*/
+  font-size:revert;
+  color: rgb(212, 208, 208);
+  font-family:league spartan;
+  /* line-height: 0.8; */
+  grid-row: 8;
+  grid-column: 1;
+  margin-top: auto;
+  line-height: 1em;
+ }
+
+
+i{
+  font-size: 27px;
+  grid-column: 1;
+  grid-row: 8;
+  /* margin: auto 0; */
+  color:white;
+  font-family: 'Libre Baskerville', serif;
+  /* padding: 2%; */
+  line-height: normal;
+  display: inline-block;
+  white-space: pre-line;
+}
+#menu_dynamique {
+  grid-column: 1/3;
+  grid-row: 1/8;
+  display: grid;
+  grid-template-columns: 40px 1fr 40px;
+  grid-template-rows: 40px 1fr 40px;
+  align-items: center;
+  justify-items: center;
+  /* background: aquamarine; */
+}
+
+.search{
+  grid-column: 3;
+  grid-row: 1;
+  color: black;
+  margin-left: auto;
+} 
+.facebook{
+  color: blue;
+  grid-row: 3;
+  grid-column: 1;
+}
+.language{
+  color: rgb(233, 142, 142);
+  grid-column: 2;
+  grid-row: 1;
+  margin-left: auto;
+}
+.login{
+  color:wheat;
+  grid-column: 2;
+  grid-row: 1;
+  margin-right: auto;
+}
+.last-page{
+  color:brown;
+  grid-column: 3;
+  grid-row: 3;
+}
+.email{
+  color: aquamarine;
+  grid-column: 2;
+  grid-row: 1;
+  margin-inline-end: 7em;
+}
+.phone{
+  color:azure;
+  grid-column: 2;
+  grid-row: 1;
+}
+.map{
+  color:chocolate;
+  grid-row: 3;
+  grid-column: 2;
+  margin-right: auto;
+}
